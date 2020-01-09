@@ -1,6 +1,6 @@
 Package: elasticR
 Title: Import Data from elasticSearch
-Version: 0.0.0.9000
+Version: 0.0.0.1
 Authors@R:  person("Gabriel", "Sartori", email = "gsartorik@gmail.com",
                   role = c("aut", "cre"))
 Description: Extract, filter, summarise and spatial query to ElasticSearch

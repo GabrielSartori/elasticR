@@ -1,4 +1,7 @@
 # elasticR
 package elasticR
 
-install_github("gabrielsartori/elasticR")
+`devtools::install_github("gabrielsartori/elasticR")`
+
+**Description** : Import Data from elasticSearch
+**Vignette**: 

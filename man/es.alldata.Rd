@@ -6,15 +6,20 @@
 \usage{
 es.alldata(credential, size)
 }
-\description{
-@param credential the url create by function es.credential
- @param size limit rowsa extracted
+\arguments{
+\item{credential}{the url create by function es.credential}
+
+\item{size}{limit rowsa extracted}
 }
-\details{
-@return list with status about connection response
- @export
- @examples
+\value{
+sample data
+}
+\description{
+Get data limit by size
+}
+\examples{
  es.alldata(
  credential = credential,
  size = 100)
+
 }

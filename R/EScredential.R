@@ -1,14 +1,13 @@
-#'  Function to create url to connect api elasticsearch
+#' Function to create url to connect api elasticsearch
 #'
 #' @param user username
-#'  @param passwd password
-#'  @param find_search find or search in string
-#'  @param database database name
-#'  @param collection table name
-#'
-#'  @return build link
-#'  @export
-#'  @examples
+#' @param passwd password
+#' @param find_search find or search in string
+#' @param database database name
+#' @param collection table name
+#' @return a character that contain a link
+#' @export
+#' @examples
 #'  es.credential(
 #'    "entreprise",
 #'    "admin123",
@@ -16,7 +15,7 @@
 #'    "finance",
 #'    "realties"
 #'  )
-#'
+
 es.credential <- function(
   user = user,
   passwd = passwd,

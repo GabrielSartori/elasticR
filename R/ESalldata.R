@@ -1,11 +1,11 @@
-#'  Get data limit by size
+#' Get data limit by size
 #'
-#'  @param credential the url create by function es.credential
-#'  @param size limit rowsa extracted
+#' @param credential the url create by function es.credential
+#' @param size limit rowsa extracted
 #'
-#'  @return list with status about connection response
-#'  @export
-#'  @examples
+#' @return sample data
+#' @export
+#' @examples
 #'  es.alldata(
 #'  credential = credential,
 #'  size = 100)

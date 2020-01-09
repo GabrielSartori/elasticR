@@ -13,23 +13,28 @@ es.credential(
 )
 }
 \arguments{
-\item{user}{username
- @param passwd password
- @param find_search find or search in string
- @param database database name
- @param collection table name
+\item{user}{username}
 
- @return build link
- @export
- @examples
+\item{passwd}{password}
+
+\item{find_search}{find or search in string}
+
+\item{database}{database name}
+
+\item{collection}{table name}
+}
+\value{
+a character that contain a link
+}
+\description{
+Function to create url to connect api elasticsearch
+}
+\examples{
  es.credential(
    "entreprise",
    "admin123",
    "search",
    "finance",
    "realties"
- )}
-}
-\description{
-Function to create url to connect api elasticsearch
+ )
 }

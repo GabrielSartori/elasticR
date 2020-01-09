@@ -7,14 +7,16 @@
 es.connection(credential)
 }
 \arguments{
-\item{credential}{the url create by function es.credential
-
- @return list with status about connection response
- @export
- @examples
- es.connection(credential)
- )}
+\item{credential}{the url create by function es.credential}
+}
+\value{
+list with status about connection response
 }
 \description{
 Testing url connection to database with credential
+}
+\examples{
+ es.connection(credential)
+ )
+
 }

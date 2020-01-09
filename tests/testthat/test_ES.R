@@ -10,7 +10,7 @@ test_credential <-
   )
 
 test_that("connection create a single url", {
-  expect_equal(objected = length(test_credential),
+  expect_equal(object = length(test_credential),
                expected = 1)
 
 })

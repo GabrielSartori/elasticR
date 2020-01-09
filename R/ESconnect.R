@@ -2,9 +2,9 @@
 #'
 #' @param credential the url create by function es.credential
 #'
-#'  @return list with status about connection response
-#'  @export
-#'  @examples
+#' @return list with status about connection response
+#' @export
+#' @examples
 #'  es.connection(credential)
 #'  )
 #'

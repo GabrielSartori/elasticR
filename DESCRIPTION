@@ -1,0 +1,16 @@
+Package: elasticR
+Title: Import Data from elasticSearch
+Version: 0.0.0.9000
+Authors@R:  person("Gabriel", "Sartori", email = "gsartorik@gmail.com",
+                  role = c("aut", "cre"))
+Description: Extract, filter, summarise and spatial query to ElasticSearch
+Depends: R (>= 3.1.0)
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+Imports: 
+  dplyr,
+  httr,
+  jsonlite,
+  sf
+RoxygenNote: 7.0.1

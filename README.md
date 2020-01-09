@@ -1,4 +1,4 @@
 # elasticR
 package elasticR
 
-install_github("GabrielSartori/elasticR")
+install_github("gabrielsartori/elasticR")

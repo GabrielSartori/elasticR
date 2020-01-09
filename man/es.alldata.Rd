@@ -9,7 +9,7 @@ es.alldata(credential, size)
 \arguments{
 \item{credential}{the url create by function es.credential}
 
-\item{size}{limit rowsa extracted}
+\item{size}{limit rows to extract}
 }
 \value{
 sample data

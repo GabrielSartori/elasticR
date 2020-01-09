@@ -4,7 +4,7 @@
 #' @param passwd password
 #' @param find_search find or search in string
 #' @param database database name
-#' @param collection table name
+#' @param table table name
 #' @return a character that contain a link
 #' @export
 #' @examples

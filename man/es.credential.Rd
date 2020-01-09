@@ -21,7 +21,7 @@ es.credential(
 
 \item{database}{database name}
 
-\item{collection}{table name}
+\item{table}{table name}
 }
 \value{
 a character that contain a link

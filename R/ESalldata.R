@@ -1,7 +1,7 @@
 #' Get data limit by size
 #'
 #' @param credential the url create by function es.credential
-#' @param size limit rowsa extracted
+#' @param size limit rows to extract
 #'
 #' @return sample data
 #' @export
